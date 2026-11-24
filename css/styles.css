@@ -1,0 +1,90 @@
+body{
+  color: #0F5C3D;
+  background-color: #FFCCD5;
+
+font-family: "Nunito Sans", sans-serif;
+  line-height: 1.5;
+}
+.highlight {
+  font-weight: bold;
+}
+*{
+  box-sizing: border-box;
+}
+section {
+  padding: 10px;
+  
+}
+main {
+  max-width: 850px;
+}
+#perrito{
+width: 200px;
+border-radius:20%;
+border: 5px solid #0A192F;
+}
+img {
+  max-width: 100%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row > h2 {
+  width: 100%;
+}
+.col-1-3 {
+  width: 33.333%;
+  padding: 5px;
+}
+.col-1-2 {
+  width: 50%;
+  padding: 8px;
+}
+.primary-btn {
+  display: inline-block;
+  padding: 15px 10px;
+  background: #15181B;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.primary-btn:hover {
+  background: #0F5C3D;
+}
+#about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.24)), url("/publico/img/muestras/banner.svg");
+  background-size: cover;
+  color: #FFFFFF;
+}
+.contact-float {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  min-height: 44px;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+#about {
+  grid-column: 1 / -1;
+}
+
+#projects {
+  grid-column: 1 / -1;
+}
+@media (max-width: 600px) {
+main {
+    grid-template-columns: 1fr;
+  }
+}
+.gallery-controls button {
+ min-height: 44px;
+}
+#skills-gallery { 
+width: 100%; 
+}
